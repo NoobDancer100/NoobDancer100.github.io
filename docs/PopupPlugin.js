@@ -13,10 +13,10 @@
         alert(Message);
     };
     ext.popup_ask = function(Message) {
-    return Prompt(Message);
+    return prompt(Message);
     };
     ext.popup_confirm = function(Message) {
-     return Confirm(Message)
+     return confirm(Message)
     }
 
     // Block and block menu descriptions
