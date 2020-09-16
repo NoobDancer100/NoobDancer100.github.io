@@ -27,8 +27,10 @@
             ['b', 'Confirm %s In popup', 'confirmp', 'Are you sure?'],
             ['r', 'Prompt %s In popup', 'promptp', 'Whats your name?'],
         ]
+        url: "https://noobdancer100.github.io/Extentions/Popup/"
+        displayName: "Popup Extention"
     };
 
     // Register the extension
-    ScratchExtensions.register('My first extension', descriptor, ext);
+    ScratchExtensions.register('Popup Extention', descriptor, ext);
 })({});
