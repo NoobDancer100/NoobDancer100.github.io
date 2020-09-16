@@ -24,8 +24,8 @@
         blocks: [
             // Block type, block name, function name
             [' ', 'Tell %s In popup', 'popupp', "Hello world!"],
-            ['r', 'Confirm %s In popup', 'confirmp', 'Are you sure?'],
-            ['b', 'Prompt %s In popup', 'promptp', 'Whats your name?'],
+            ['b', 'Confirm %s In popup', 'confirmp', 'Are you sure?'],
+            ['r', 'Prompt %s In popup', 'promptp', 'Whats your name?'],
         ]
     };
 
