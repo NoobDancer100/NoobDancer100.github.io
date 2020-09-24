@@ -14,19 +14,20 @@
     };
     
     ext.hat = function(name) {
-      if (run === name) {
-        run = "";
-        return true;
+      if (!run === "") {
+        if (run === name) {
+          run = "";
+          return true;
+        }
       }
-      
       return false;
     };
 
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
-        [" ", "run function %s", "run"],
-        ["h", "function %s", "hat"],
+        [" ", "run function %s", "run", "main"],
+        ["h", "function %s", "hat", "main"],
         ]
     };
 
