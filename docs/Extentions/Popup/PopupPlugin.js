@@ -39,7 +39,7 @@
           [" ", "Show popup %s", "normal", "Hi!"],
           ["r", "Prompt %s in popup", "prompt", "Whats your name?"],
           ["b", "Confirm %s in popup", "confirm", "Are you sure?"],
-        ]
+        ],
         displayName: "Cool Popups"
     };
 
