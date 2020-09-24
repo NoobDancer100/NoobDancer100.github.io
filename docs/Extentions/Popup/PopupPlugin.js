@@ -24,12 +24,12 @@
     };
     ext.prompt = function(msg) {
        run = true;
-       report prompt(msg);
+       return prompt(msg);
     };
     
     ext.confirm = function(msg) {
       run = true;
-      report confirm(msg);
+      return confirm(msg);
     };
 
     // Block and block menu descriptions
