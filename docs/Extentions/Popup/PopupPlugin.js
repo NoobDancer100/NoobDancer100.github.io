@@ -20,17 +20,17 @@
     
     ext.normal = function(msg) {
        run = true;
-       alert(msg)
+       alert(msg);
     };
     ext.prompt = function(msg) {
        run = true;
-       report prompt(msg)
+       report prompt(msg);
     };
     
     ext.confirm = function(msg) {
-      run = true
-      report confirm(msg)
-    }
+      run = true;
+      report confirm(msg);
+    };
 
     // Block and block menu descriptions
     var descriptor = {
@@ -40,8 +40,9 @@
           ["r", "Prompt %s in popup", "prompt", "Whats your name?"],
           ["b", "Confirm %s in popup", "confirm", "Are you sure?"],
         ]
+        displayName: "Cool Popups"
     };
 
     // Register the extension
-    ScratchExtensions.register('Sample extension', descriptor, ext);
+    ScratchExtensions.register('Cool popups', descriptor, ext);
 })({});
