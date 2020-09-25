@@ -11,13 +11,13 @@
     
     ext.waitopened = function(callback) {
       while(open==false) {}
-      open = false
+      open = false;
       callback();
     };
     
     ext.openwait = function() {
-      open = true
-    }
+      open = true;
+    };
 
     // Block and block menu descriptions
     var descriptor = {
