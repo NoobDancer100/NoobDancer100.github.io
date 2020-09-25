@@ -22,11 +22,12 @@
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
-          ["w", "wait until opened", "waitopened"]
-          [" ", "open wait", "openwait"]
-        ]
+          ["w", "wait until opened", "waitopened"],
+          [" ", "open wait", "openwait"],
+        ],
+        displayName: "Wait gate"
     };
 
     // Register the extension
-    ScratchExtensions.register('Sample extension', descriptor, ext);
+    ScratchExtensions.register('Wait gate', descriptor, ext);
 })({});`
