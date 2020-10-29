@@ -30,4 +30,4 @@
 
     // Register the extension
     ScratchExtensions.register('Wait gate', descriptor, ext);
-})({});`
+})({});
